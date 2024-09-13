@@ -1,0 +1,12 @@
+print("List Generator")
+print()
+print("Hello! I'm your list generator. Please answer the following questions to get started.")
+print()
+startingnumber = int(input("What number would you like to start with? "))
+endingnumber = int(input("What is the number you would like to end with? "))
+increment = int(input("What is th increament between the value? "))
+print("\033[32m")
+for i in range(startingnumber, endingnumber, increment):
+  print(i)
+print()
+print("\033[0mThank you for using my list generator!")
